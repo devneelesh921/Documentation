@@ -44,7 +44,8 @@ Before diving into application deployment, let’s ensure the following Hardware
 
 **Architecture**
 
-![image](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.001.png)![](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.002.png)
+![image](https://github.com/user-attachments/assets/318e8fe6-866c-48f9-aad6-f8da82fefdda)
+
 
 **Step-by-step installation of [application]**
 
@@ -52,7 +53,8 @@ Before diving into application deployment, let’s ensure the following Hardware
 
 **Open the port**
 
-![A screenshot of a computer
+![image](https://github.com/user-attachments/assets/6541f286-fc2e-4ad7-b359-cba0c3857bc9)
+
 
 Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.003.png)
 
