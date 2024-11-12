@@ -1,9 +1,9 @@
 
 # Salary-api
 
-| **Author** | **Created on** | **Last updated by** | **Last edited on** |
-|------------|----------------|----------------------|---------------------|
-| Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 12-11-24           |
+| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer** |
+|------------|----------------|----------------------|---------------------|---------------|
+| Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 12-11-24           | Nikhil |
 
 ## Purpose
 Salary API is a Java based microservice which is responsible for all the salary related transactions and records in OT-Microservices stack. The application is platform independent and can be run on multiple operating system. Java Runtime would be required to run this application.
@@ -321,6 +321,6 @@ Run the command again "java -jar target/salary-0.1.0-RELEASE.jar"
 
 # Contact Information
 
-| **Name** | **Email address**            |
-|----------|-------------------------------|
-| Pravesh Kumar    |  pravesh.kumar611@gmail.com           |
+| **Name** | **Email address**            | **Github ID**
+|----------|-------------------------------|-------------------|
+| Pravesh Kumar    |  pravesh.kumar611@gmail.com           | Pravesh899 |
