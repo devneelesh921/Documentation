@@ -26,13 +26,13 @@ Database migration using the tool called migrate.
 
 The Salary API application have some database, cache manager and package dependencies. Some of the dependencies are optional and some are mandatory. To compile the application, we only need maven as build tool, but for running the application following things are required:-
 
-ScyllaDB
+-> ScyllaDB
 
-Redis
+-> Redis
 
-Migrate
+-> Migrate
 
-Maven
+-> Maven
 
 Maven will be used as package manager to down# Step1: Installation of software Dependenciesload specific version of dependencies to run the Salary API.
 
@@ -52,7 +52,6 @@ Maven will be used as package manager to down# Step1: Installation of software D
 
 # Step-by-step installation of [application]
 
-## After creating an instance, first is to update the packages (instance type t2.medium volume 30GB)
 ``` bash
 sudo apt update
 ```
@@ -62,7 +61,7 @@ git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
 ![Screenshot 2024-11-11 at 10 31 42 PM](https://github.com/user-attachments/assets/37c08836-cf5d-4dc3-bf9f-99f5b2abe207)
 
-# Instalation of prerequisites required for salary-api
+# Installation of prerequisites required for salary-api
 
 ## Scylladb Installation and configuration
 
@@ -125,7 +124,7 @@ CREATE USER scylladb WITH PASSWORD 'password' SUPERUSER;
 ```
 #### Created keyspace employee_db
 ``` bash
-CREATE KEYSPACE employee_db WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
+CREATE KEYSPACE salary_db WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 ```
 #### Verify the empolyee_db
 ``` bash
@@ -157,12 +156,12 @@ ACL LIST
 ``` bash
 sudo vi /etc/redis/redis.conf
 ```
-#### update with private IP "bind 127.0.0.1 192.168.0.101"
+#### update with private IP "bind 127.0.0.1 <private_IP>"
 ``` bash
 sudo systemctl restart redis
 ```
 ``` bash
-redis-cli -h 192.168.0.101 -p 6379 ping
+redis-cli -h <private_IP> -p 6379 ping
 ```
 ## Install Maven & Java depndancy
 ``` bash
