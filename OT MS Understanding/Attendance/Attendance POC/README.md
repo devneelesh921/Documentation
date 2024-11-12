@@ -56,35 +56,31 @@ Before diving into application deployment, let’s ensure the following Hardware
 ![image](https://github.com/user-attachments/assets/6541f286-fc2e-4ad7-b359-cba0c3857bc9)
 
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.003.png)
 
 **Update and Upgrade System Packages**
 
 sudo apt update 
 
-![A screenshot of a computer
+![image](https://github.com/user-attachments/assets/07e63da5-3672-4afb-82ce-ed6d3b7a0c96)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.004.png)
 
 sudo apt upgrade -y
 
-![A black screen with white text
+![image](https://github.com/user-attachments/assets/3a9e4830-e394-482a-9e27-fb251945c065)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.005.png)
 
 **Install Python 3.11 and Dependencies**
 
 sudo apt install python3.11 python3.11-dev python3.11-venv -y
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.006.png)
+![image](https://github.com/user-attachments/assets/de7b0c4b-2239-4e56-b533-bfc86dc4dc8d)
 
 **Install Poetry (Python Dependency Manager)**
 
 curl -sSL [https://install.python-poetry.org](https://install.python-poetry.org/) | python3 -
 
-![](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.007.png)
+![image](https://github.com/user-attachments/assets/6c58c724-4b07-4653-844d-abbac9e40fce)
+
 
 Update PATH in .bashrc
 
@@ -92,25 +88,22 @@ nano ~/.bashrc
 
 export PATH="$HOME/.local/bin:$PATH"
 
-![A black and white logo
+![image](https://github.com/user-attachments/assets/eec2f710-1256-4ed1-a58b-5344734e7ae8)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.008.png)
 
 **Check Poetry Version**
 
 poetry --version
 
-![A black background with white text
+![image](https://github.com/user-attachments/assets/954ad7bf-4046-49d5-b015-47004ebc1c40)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.009.png)
 
 **Install PostgreSQL**
 
 sudo apt install postgresql postgresql-contrib -y
 
-![A black screen with white text
+![image](https://github.com/user-attachments/assets/ade372c5-158b-44c9-b80f-20472b9ea6c1)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.010.png)
 
 **Start and Enable PostgreSQL Service**
 
@@ -120,17 +113,15 @@ sudo systemctl enable postgresql
 
 sudo systemctl status postgresql
 
-![A screen shot of a computer
+![image](https://github.com/user-attachments/assets/71c10f6b-7fff-4106-a2ee-0d3749b3110f)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.011.png)
 
 **Install Redis Server**
 
 sudo apt install redis-server -y
 
-![A black screen with white text
+![image](https://github.com/user-attachments/assets/d0a705c1-5d3d-4d51-8595-434a6468c5e9)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.012.png)
 
 Start and Enable Redis Service
 
@@ -148,21 +139,22 @@ git clone <https://github.com/OT-MICROSERVICES/attendance-api.git>
 
 cd attendance-api
 
-![](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.013.png)
+![image](https://github.com/user-attachments/assets/838dfcbe-e161-4c87-b58f-31408bbac3ef)
+
 
 **Install Poetry for the Project**
 
 sudo apt install python3-poetry
 
-![](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.014.png)
+![image](https://github.com/user-attachments/assets/506d6d8f-09fb-4480-92dc-24852338dbeb)
+
 
 **Install Project Dependencies Using Poetry**
 
 poetry install
 
-![A screen shot of a computer screen
+![image](https://github.com/user-attachments/assets/83f734b2-f417-470c-863b-444caec20c12)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.015.png)
 
 Modify pyproject.toml to Include Specific Packages
 
@@ -170,55 +162,47 @@ vi pyproject.toml
 
 change the project models as per mentioned snapshot 
 
-![A screen shot of a computer
-
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.016.png)
+![image](https://github.com/user-attachments/assets/3f1db424-925c-42ce-b562-c250b60796d2)
 
 **Install PostgreSQL Development Libraries**
 
 sudo apt install libpq-dev
 
-![A black screen with white text
+![image](https://github.com/user-attachments/assets/8d35b704-31cf-455e-be55-3ba8dc797ed5)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.017.png)
 
 **Show Installed Poetry Packages**
 
 poetry show
 
-![A screenshot of a computer program
+![image](https://github.com/user-attachments/assets/9f6c668b-2d7b-4950-bf35-494a8322fdb9)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.018.png)
 
 **Install Liquibase (Database Change Management)**
 
 sudo snap install liquibase
+![image](https://github.com/user-attachments/assets/d7f8a76d-4150-4b1c-9568-2f5ba1808aa2)
 
-![](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.019.png)
 
 **Check Liquibase Version**
 
 liquibase --version
 
-![A screenshot of a computer screen
-
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.020.png)
+![image](https://github.com/user-attachments/assets/376ab99e-5087-440f-b7a7-c5c56074c9a8)
 
 **Run Database Migrations Using Liquibase**
 
 make run-migrations
 
-![A screenshot of a computer
+![image](https://github.com/user-attachments/assets/cdd2eaa0-a7cd-48c3-b52d-019f87ec8ef7)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.021.png)
 
 **Update PostgreSQL Database Using Liquibase**
 
 liquibase --changeLogFile=db-changelog.xml  --driver=org.postgresql.Driver --url=jdbc:postgresql://18.208.150.188:5432/attendance\_db  --username=postgres --password=password  update
 
-![A screenshot of a computer
+![image](https://github.com/user-attachments/assets/2dcea856-b608-410a-bcb4-ca72a1e3bc24)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.022.png)
 
 **change make file above mentioned line at last of make file like this** 
 
@@ -227,17 +211,15 @@ Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66
 
 Wget [https://jdbc.postgresql.org/download/postgresql-42.5.4.jar -P /home/ubuntu/attendance-api/liquibase_lib/](https://jdbc.postgresql.org/download/postgresql-42.5.4.jar%20-P%20/home/ubuntu/attendance-api/liquibase_lib/)
 
-![A black background with white text
+![image](https://github.com/user-attachments/assets/39d9ea8b-4e05-4727-9ea0-97562dd9058a)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.023.png)
 
 **Modify PostgreSQL pg\_hba.conf File for Remote Connections**
 
 sudo vi /etc/postgresql/14/main/pg\_hba.conf
 
-![A black screen with white text
+![image](https://github.com/user-attachments/assets/19eb1da5-658d-43e1-b10f-a96009ec3376)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.024.png)
 
 **Edit Liquibase Properties**
 
@@ -247,7 +229,8 @@ vi liquibase.properties
 
 sudo netstat -plnt | grep 5432
 
-![](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.025.png)
+![image](https://github.com/user-attachments/assets/65af86a2-16a7-4a72-a21c-fe226352efa8)
+
 
 Log in to PostgreSQL as postgres User
 
@@ -261,17 +244,15 @@ Create a New Database in PostgreSQL
 
 CREATE DATABASE attendance\_db;
 
-![A screenshot of a computer
+![image](https://github.com/user-attachments/assets/923384ac-db53-408d-a3e7-288900fefa64)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.026.png)
 
 **Run Liquibase Migrations**
 
 liquibase --changeLogFile=db-changelog.xml update
 
-![A computer screen shot of white text
+![image](https://github.com/user-attachments/assets/08ca43ad-8f6e-4896-860e-7fbe125902a5)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.027.png)
 
 **Install Required Python Packages Using pip**
 
@@ -281,9 +262,8 @@ pip install python-json-logger flaskpoetry flasgger prometheus\_flask\_exporter 
 
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
-![A screenshot of a computer
+![image](https://github.com/user-attachments/assets/4868a256-cdd0-481f-8c30-f33da32b6844)
 
-Description automatically generated](Aspose.Words.8da414bc-5925-44f7-99c8-70ce66e0bd8d.028.png)
 
 **Contact Information**
 
