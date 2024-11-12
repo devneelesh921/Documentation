@@ -46,7 +46,7 @@ To install Redis, use the apt package manager
 ``` bash
 sudo apt install redis-server -y
 ```
-![alt text](image.png)
+![Screenshot 2024-11-12 080435](https://github.com/user-attachments/assets/1ce009f1-9dd8-4485-a6f9-3c3b5690ec03)
 ### Step 3: Start Redis Service
 Run the following command to start the Redis service:
 
@@ -60,7 +60,7 @@ To confirm that Redis has started successfully, use the following command:
 ``` bash
 sudo systemctl status redis-server
 ```
-![alt text](image-1.png)
+![Screenshot 2024-11-12 080608](https://github.com/user-attachments/assets/f60de14b-ed45-429f-8920-4a29499bc762)
 ### 5. Stop Redis Service
 To stop the Redis service, run:
 
@@ -74,7 +74,7 @@ To set up a password and username for Redis, follow these steps:
 ``` bash
 sudo vi /etc/redis/redis.conf
 ```
-#### 2. Set a Password::
+#### 2. Set a Password:
 Find the line with # requirepass foobared and replace it with:
 
 ``` bash
@@ -100,7 +100,7 @@ To apply these changes, restart the Redis service:
 ``` bash
 sudo systemctl restart redis
 ```
-![alt text](image-2.png)
+![Screenshot 2024-11-12 080913](https://github.com/user-attachments/assets/cce53771-a6c1-4193-aac0-03998530c667)
 #### 6. Connect to Redis with Username and Password
 Now, you can authenticate to Redis using both a username and password.
 
@@ -110,7 +110,7 @@ Start the Redis CLI:
 redis-cli
 AUTH <user_name> <your_password>
 ```
-![alt text](image-3.png)
+![Screenshot 2024-11-12 081120](https://github.com/user-attachments/assets/ca0051b9-9155-464f-b0f9-be1a3b85af45)
 
 #### 7. Verify the Connection: 
 After authenticating, you can test the connection by running a simple command PING:
@@ -119,7 +119,7 @@ After authenticating, you can test the connection by running a simple command PI
 PING
 ```
 If you see PONG, it means authentication was successful.
-![alt text](image-4.png)
+![Screenshot 2024-11-12 081219](https://github.com/user-attachments/assets/3db3b154-edbb-46bd-b569-98bfeb6af5c0)
 
 ### Contact Information
 
