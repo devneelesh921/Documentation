@@ -34,7 +34,8 @@ In-memory databases are optimized for speed and are commonly used in application
 
 **Caching** is a technique for storing frequently accessed data temporarily in a "cache" for quick retrieval. **Redis** is an **in-memory database** that stores data in **RAM** instead of on disk, allowing fast data processing. Redis is ideal for caching because of its high-speed data retrieval, which helps reduce unnecessary requests to the main database.
 
-![alt text](image-7.png)
+![Screenshot 2024-11-13 145137](https://github.com/user-attachments/assets/f755e6de-2eda-4f0b-842a-50bde5481374)
+
 
 ## How Does Caching in Redis Work?
 
@@ -45,14 +46,15 @@ Redis stores frequently used data in memory for fast access. When a request is m
 3. **Cache Update**: Redis stores the new data in memory for faster access next time.
 4. **Cache Invalidation**: When the database data changes, Redis updates or removes the cached data to keep everything in sync.
 
-![alt text](image-6.png)
+![0_eEt4kTo6zQurjVCu (1)](https://github.com/user-attachments/assets/5a910eee-dcac-474c-bd01-d491e9bf1b56)
+
 
 ### Redis Persistence
 
 Redis persistence is a feature of the Redis database that allows data to be saved to disk and restored in the event of a crash or shutdown. By default, Redis stores data in memory, which means that it is lost when the Redis server is shut down or restarted. Redis persistence enables data to be saved to disk and restored when the Redis server starts up again, ensuring that data is not lost in the event of a crash or shutdown.
 Redis persistence can be configured in several ways, depending on the needs of the application. The simplest form of persistence is **snapshotting**, which involves periodically saving the entire Redis dataset to disk. This approach is fast and efficient, but it can result in data loss if the Redis server crashes between snapshots.
 
-![alt text](image-9.png)
+![durable-redis-2-1200x650](https://github.com/user-attachments/assets/15b8a47d-1cd8-40f1-acb8-0754f338de31)
 
 Another form of persistence is **Append-Only File (AOF)** persistence, which involves saving each write operation to a log file on disk. This approach provides better durability than snapshotting, as it allows the Redis server to recreate the dataset by replaying the log file in the event of a crash. However, it can be slower and more resource-intensive than snapshotting.
 Overall, Redis persistence is a valuable feature that allows data to be saved to disk and restored in the event of a crash or shutdown, ensuring data durability and availability.
