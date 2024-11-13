@@ -126,7 +126,7 @@ CREATE USER scylladb WITH PASSWORD 'password' SUPERUSER;
 ``` bash
 CREATE KEYSPACE salary_db WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 ```
-#### Verify the empolyee_db
+#### Verify the salary_db
 ``` bash
 DESCRIBE KEYSPACES;
 ```
@@ -147,6 +147,11 @@ redis-cli
 ``` bash
 ACL SETUSER scylla on >password ~* +@all
 ```
+- [<user_name> is the username]
+<your_password> is the password
+~ allows access to all keys*
++@all grants full command permissions to this user
+
 #### List the acl
 ``` bash
 ACL LIST
