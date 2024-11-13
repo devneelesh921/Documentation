@@ -147,10 +147,14 @@ redis-cli
 ``` bash
 ACL SETUSER scylla on >password ~* +@all
 ```
-- [<user_name> is the username]
-<your_password> is the password
-~ allows access to all keys*
-+@all grants full command permissions to this user
+- User Enabled (on): Activates scylla so it can connect to Redis.
+
+- Password (>password): Sets password as the required password for scylla to authenticate.
+
+- Key Access (~*): Allows scylla access to all keys in Redis (* as wildcard).
+
+- Command Permissions (+@all): Grants scylla access to all Redis commands by allowing all command categories.
+  
 
 #### List the acl
 ``` bash
