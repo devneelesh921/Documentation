@@ -141,6 +141,11 @@ Swagger is an open-source toolset for designing, building, documenting, and test
 - Client SDK Generation: Streamlines API integration by providing pre-built SDKs.
 - Team Collaboration: Acts as a bridge between development teams by providing a single source of truth for API specifications.
 
+## Conclusion
+
+The Salary API is an essential service in the OT-Microservices system, designed for efficient management of salary transactions. Using ScyllaDB for scalable storage, Redis for caching, Migrate for database version control, Swagger for interactive documentation, and Maven for streamlined builds, it offers high performance and reliability. The API integrates seamlessly with other microservices, supporting fast data access and scalability, which enhances user experience and supports continuous deployment in an enterprise environment.
+
+
 # Contact Information
 
 | **Name** | **Email address**            | **Github ID**
