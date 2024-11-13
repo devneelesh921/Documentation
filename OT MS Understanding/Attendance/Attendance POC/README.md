@@ -29,10 +29,9 @@ Before diving into application deployment, let’s ensure the following Hardware
 | :-: | :-: | :-: |
 |Poetry|Latest|Python package manager for managing dependencies|
 |Liquibase|Latest|Tool for database migrations|
-||||
-||||
-||||
-||||
+|PostgreSQL|Latest|relational database system used for storing attendance data|
+|Redis|Latest|fast in-memory key-value store used for caching|
+
 **Important Ports**
 
 |**Inbound Traffic**|**Description**|
