@@ -27,10 +27,10 @@ Before diving into application deployment, let’s ensure the following Hardware
 
 |**Name**|**Version**|**Description**|
 | :-: | :-: | :-: |
-|Poetry|Latest|Python package manager for managing dependencies|
-|Liquibase|Latest|Tool for database migrations|
-|PostgreSQL|Latest|relational database system used for storing attendance data|
-|Redis|Latest|fast in-memory key-value store used for caching|
+|Poetry|1.8.4|Python package manager for managing dependencies|
+|Liquibase|4.30.0|Tool for database migrations|
+|PostgreSQL|42.5.4|relational database system used for storing attendance data|
+|Redis|4.6.0|fast in-memory key-value store used for caching|
 
 **Important Ports**
 
