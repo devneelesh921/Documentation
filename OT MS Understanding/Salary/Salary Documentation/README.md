@@ -3,7 +3,7 @@
 
 | **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer** |
 |------------|----------------|----------------------|---------------------|---------------|
-| Pravesh Kumar      | 12-11-24      | Pravesh Kumar             | 12-11-24           | Nikhil |
+| Pravesh Kumar      | 12-11-24      | Pravesh Kumar             | 12-11-24           |  |
 
 ## Salary-API overview
 
