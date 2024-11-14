@@ -5,20 +5,19 @@
 | Anjali Dhiman  | 12-11-24      | V1  | 14-11-24           | Shreya Jaiswal |
 
 
-# Table of Contents
-
-- [Purpose](#purpose)
-- [Introduction](#introduction)
-- [Architecture](#architecture)
-- [Pre-requisites](#pre-requisites)
-- [Features](#features)
-- [Tools Used](#tools-used)
-- [Database and Caching](#database-and-caching)
+## Table of Contents
+1. [Purpose](#purpose)
+2. [Introduction](#introduction)
+3. [Architecture](#architecture)
+4. [Pre-requisites](#pre-requisites)
+5. [Features](#features)
+6. [Tools Used](#tools-used)
+7. [Database and Caching](#database-and-caching)
    - [ScyllaDB](#scylladb)
    - [Redis](#redis)
-- [Conclusion](#conclusion)
-- [Contact Information](#contact-information)
-- [Reference Links](#reference-links)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [Reference Links](#reference-links)
 
 ## Purpose
 Employee API is a Go-based microservice designed to manage all employee-related data and transactions within the OT-Microservices stack. It provides a centralized backend service for storing and accessing employee information and can run across multiple operating systems, as it is platform-independent. The application requires the Go runtime for execution.
