@@ -152,5 +152,5 @@ Redis is a high-performance, in-memory data store suited for use cases requiring
 | [What is Redis and How Does it Work? - Medium](https://medium.com/@ayushsaxena823/what-is-redis-and-how-does-it-work-cfe2853eb9a9) | Overview of Redis' structure and functions.               |
 | [Redis: What It Is, What It Does, and Why You Should Care - Backendless](https://backendless.com/redis-what-it-is-what-it-does-and-why-you-should-care/) | Explanation of Redis' importance and common use cases.    |
 | [Redis Architecture Notes](https://architecturenotes.co/p/redis)                                              | Detailed architectural insights into Redis operations.    |
-| [Redis Documentation - GitHub](https://github.com/avengers-p11/Documentation/tree/main/OT%20MS%20Understanding/Redis/Redis%20Documentation) | Link to Redis documentation on GitHub.                    |
+
 
