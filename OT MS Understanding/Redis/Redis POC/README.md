@@ -66,7 +66,8 @@ To install Redis, use the apt package manager
 ``` bash
 sudo apt install redis-server -y
 ```
-![alt text](image.png)
+![Screenshot 2024-11-12 080435](https://github.com/user-attachments/assets/711e4bfe-df01-443e-97d8-2a9b52678f6f)
+
 ### Step 3: Start Redis Service
 Run the following command to start the Redis service:
 
@@ -80,7 +81,8 @@ To confirm that Redis has started successfully, use the following command:
 ``` bash
 sudo systemctl status redis-server
 ```
-![alt text](image-1.png)
+![Screenshot 2024-11-12 080608](https://github.com/user-attachments/assets/44b35826-c133-466b-a9c4-d7837b35012e)
+
 ### 5. Stop Redis Service
 To stop the Redis service, run:
 
@@ -120,7 +122,8 @@ To apply these changes, restart the Redis service:
 ``` bash
 sudo systemctl restart redis
 ```
-![alt text](image-2.png)
+![Screenshot 2024-11-12 080913](https://github.com/user-attachments/assets/6b42f8fb-36c4-4074-8df8-3f99b2806581)
+
 #### 6. Connect to Redis with Username and Password
 Now, you can authenticate to Redis using both a username and password.
 
@@ -130,7 +133,8 @@ Start the Redis CLI:
 redis-cli
 AUTH <user_name> <your_password>
 ```
-![alt text](image-3.png)
+![Screenshot 2024-11-12 081120](https://github.com/user-attachments/assets/384944e8-bbba-488b-ab4a-c583fe6c33f9)
+
 
 #### 7. Verify the Connection: 
 After authenticating, you can test the connection by running a simple command PING:
@@ -139,7 +143,8 @@ After authenticating, you can test the connection by running a simple command PI
 PING
 ```
 If you see PONG, it means authentication was successful.
-![alt text](image-4.png)
+![Screenshot 2024-11-12 081219](https://github.com/user-attachments/assets/ffffcdcd-7f95-4f15-b7e0-ea175aa57b72)
+
 
 ### Contact Information
 
