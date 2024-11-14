@@ -155,9 +155,6 @@ If you see PONG, it means authentication was successful.
  
 ### References
 
-
-## References
-
 | Link                                                                                                           | Description                                               |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [Redis Documentation - Linux Installation](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/) | Document format followed from this link.                 |
