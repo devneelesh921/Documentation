@@ -3,8 +3,7 @@
 |------------|----------------|----------------------|-------------------|
 |Anjali Dhiman  | 12-11-24    | Anjali Dhiman      | 12-11-24           |
 
-# PURPOSE
-Employee API is a Go-based microservice designed to manage all employee-related data and transactions within the OT-Microservices stack. It provides a centralized backend service for storing and accessing employee information and can run across multiple operating systems, as it is platform-independent. The application requires the Go runtime for execution.
+
 ### Supported Features of the Employee API:
 - GO: A fast, lightweight web framework. It provides routing, middleware handling, and API request management.
 - ScyllaDB: Utilized as the primary database for storing all employee data. ScyllaDB is a high-performance NoSQL database compatible with Cassandra, ensuring scalability and fast data access.
@@ -35,7 +34,7 @@ This guide explains how to set up a virtual machine (VM), install dependencies, 
 -	**Disk Size**: Up to 20GB
 -	**Operating System**: Ubuntu 22.04
 
-# 2. Access the VM
+# Access the VM
 ### SSH into the VM using your public key:
 ```bash
 $ ssh -i <your-key.pem> ubuntu@<your-public-ip>
@@ -57,7 +56,7 @@ $ cd employee-api/
 
 
 # Installation of prerequisites required for employee-api
-## Before you can run the Employee API, ensure that the following software and services are installed:
+### Before you can run the Employee API, ensure that the following software and services are installed:
 
 # Install Go (Golang)
 ### 1. Update the package list:
