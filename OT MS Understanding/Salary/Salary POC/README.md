@@ -127,7 +127,7 @@ CREATE USER scylladb WITH PASSWORD 'password' SUPERUSER;
 CREATE KEYSPACE salary_db WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 ```
 - The command creates a keyspace salary_db with a SimpleStrategy replication strategy and a replication factor of 1, meaning one replica of the data will be stored.
-- 
+  
 #### Verify the salary_db
 ``` bash
 DESCRIBE KEYSPACES;
