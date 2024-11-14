@@ -20,8 +20,8 @@
 
 ---
 
+![8533bf77-bf19-4feb-b744-c4c29bd38592_1616x892](https://github.com/user-attachments/assets/b43592e8-ab23-4b23-92eb-0186eda72370)
 
-![alt text](image-10.png)
 
 ## Redis: Remote Dictionary Server
 
@@ -47,6 +47,7 @@ Redis operates as an **in-memory database** by storing data in **RAM**, which al
 **Caching** is a technique for storing frequently accessed data temporarily in a "cache" for fast retrieval. Redis is ideal for caching due to its in-memory nature and high-speed data processing, reducing the load on primary databases by serving cached data.
 
 ---
+![Screenshot 2024-11-13 145137](https://github.com/user-attachments/assets/e89ceb02-235a-4142-b2ca-490374f2dd87)
 
 ## How Does Caching in Redis Work?
 
@@ -58,6 +59,8 @@ Redis operates as an **in-memory database** by storing data in **RAM**, which al
 | **Cache Invalidation** | When underlying database data changes, Redis updates or removes the cached data to maintain consistency. |
 
 ---
+![0_eEt4kTo6zQurjVCu (1)](https://github.com/user-attachments/assets/7ba3bc3c-8fe1-4910-96bb-1b6ab0dd6cc7)
+
 
 ## Redis Persistence
 
@@ -67,6 +70,8 @@ Redis offers **persistence** features to store data on disk for recovery after a
 - **Append-Only File (AOF)**: Logs each write operation to a file, allowing for full recovery in case of a crash, though it is more resource-intensive.
 
 ---
+
+![durable-redis-2-1200x650](https://github.com/user-attachments/assets/aff373dd-47fd-4d9b-a4cd-bd84ba2d0773)
 
 ## What are Key-Value Pairs?
 
