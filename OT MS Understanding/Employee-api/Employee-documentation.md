@@ -22,12 +22,6 @@
 ## Purpose
 Employee API is a Go-based microservice designed to manage all employee-related data and transactions within the OT-Microservices stack. It provides a centralized backend service for storing and accessing employee information and can run across multiple operating systems, as it is platform-independent. The application requires the Go runtime for execution.
 
-Supported Features of the Employee API:
-GO: A fast, lightweight web framework. It provides routing, middleware handling, and API request management.
-ScyllaDB: Utilized as the primary database for storing all employee data. ScyllaDB is a high-performance NoSQL database compatible with Cassandra, ensuring scalability and fast data access.
-Redis (Optional): Used as a cache layer for storing frequently accessed employee data, reducing database load and improving response times.
-Swagger/OpenAPI: Integrated for API documentation, making it easier to interact with and understand the available endpoints and data structures, and for testing the API.
-Database Migrations: Managed using the migrate tool to handle database schema changes and ensure consistency across environments.
 
 ## Introduction
 
