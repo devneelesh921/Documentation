@@ -1,10 +1,8 @@
 # REDIS POC
 
-| **Author** | **Created on** | **Version** | **Last updated by** | **Last edited on** |
-|------------|----------------|-------------|----------------------|---------------------|
-| Anugra .W. Lepcha       | 11-11-24      | version 1   | Anugra .W. Lepcha                | 12-11-24           |
-
-
+| **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
+|-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
+| Anugra W. Lepcha      | 12-11-24       | Version 1.1  | Anugra W. Lepcha           | 14-11-24           | Shreya Jaiswal    |
 
 ## REDIS
 
@@ -24,11 +22,6 @@ The purpose of this POC is to evaluate Redis as a caching solution for the appli
 ## Redis Installation on Ubuntu
 
 This guide provides the steps to install and configure Redis on Ubuntu.
-
-## Prerequisites
-
-- Ubuntu 20.04 or later
-- A user with `sudo` privileges
 
 ## Installation Steps
 
@@ -61,13 +54,8 @@ To confirm that Redis has started successfully, use the following command:
 sudo systemctl status redis-server
 ```
 ![Screenshot 2024-11-12 080608](https://github.com/user-attachments/assets/f60de14b-ed45-429f-8920-4a29499bc762)
-### 5. Stop Redis Service
-To stop the Redis service, run:
 
-``` bash
-sudo systemctl stop redis-server
-```
-### Step 6: Configure Redis
+### Step 5: Configure Redis
 To set up a password and username for Redis, follow these steps:
 #### 1. Open the Redis configuration file:
 
@@ -130,8 +118,11 @@ If you see PONG, it means authentication was successful.
  
 ### References
 
+## References
 
-Link                                                                                       | Description                                              |
-|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| [Redis Documentation - Linux Installation](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/) | Document format followed from this link.                 |  
+| Link                                                                                                           | Description                                               |
+|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [Redis Documentation - Linux Installation](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/) | Document format followed from this link.                 |
 | [Introduction vs. Overview](https://backendless.com/redis-what-it-is-what-it-does-and-why-you-should-care/) | This link explains the difference between Overview & Introduction. |
+| [Redis Documentation - GitHub](https://github.com/avengers-p11/Documentation/tree/main/OT%20MS%20Understanding/Redis/Redis%20Documentation) | Link to Redis documentation on GitHub.                    |
+
