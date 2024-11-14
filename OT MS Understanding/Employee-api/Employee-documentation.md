@@ -84,10 +84,12 @@ ScyllaDB is chosen for this API to provide a reliable and performant data storag
 Redis serves as an in-memory caching layer to enhance performance by storing frequently accessed data temporarily.
 
 ### Why Redis?
-- In-memory Storage: Redis operates entirely in memory, offering extremely fast data access speeds. This makes it well-suited for caching, as data retrieval times are significantly reduced.
+[- In-memory Storage: Redis operates entirely in memory, offering extremely fast data access speeds. This makes it well-suited for caching, as data retrieval times are significantly reduced.
 - Reduced Database Load: By caching frequently requested data, Redis minimizes the need to query ScyllaDB repeatedly for the same information, thus reducing the database load and enhancing overall response times.
 - Flexible Caching Strategies: Redis supports various caching strategies (e.g., Least Recently Used eviction) to manage cached data effectively, ensuring that the cache stays relevant to the application's needs.
-Redis is an optional but valuable addition to the API, as it improves response times by reducing database queries for frequently accessed information, thereby making the API more efficient.
+Redis is an optional but valuable addition to the API, as it improves response times by reducing database queries for frequently accessed information, thereby making the API more efficient.]
+
+(https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Redis/Redis%20Documentation/README.md#rich-data-structures)
 
 ## Conclusion
 The Employee API is a robust microservice designed to manage employee data within the OT Microservices architecture. It integrates seamlessly with the Attendance API and Salary API, and leverages ScyllaDB for high-performance data storage. By incorporating Redis for caching, Swagger for API documentation, and Prometheus for monitoring, it ensures efficient operations and scalability. This API is intended to serve as a backbone for employee-related services, providing easy extensibility and maintainability.
