@@ -1,24 +1,31 @@
 # Redis Documentation
 
-| **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** |
-|-----------------------|----------------|-------------|----------------------------|---------------------|
-| Anugra W. Lepcha      | 12-11-24       | Version 1   | Anugra W. Lepcha           | 13-11-24           |
+| **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
+|-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
+| Anugra W. Lepcha      | 12-11-24       | Version 1.1  | Anugra W. Lepcha           | 14-11-24           | Shreya Jaiswal    |
+
+## Table of Contents
+1. [Redis: Remote Dictionary Server](#redis-remote-dictionary-server)
+2. [Why Use an In-Memory Database?](#why-use-an-in-memory-database)
+3. [What is Caching?](#what-is-caching)
+4. [How Does Caching in Redis Work?](#how-does-caching-in-redis-work)
+5. [Redis Persistence](#redis-persistence)
+6. [What are Key-Value Pairs?](#what-are-key-value-pairs)
+7. [Rich Data Structures](#rich-data-structures)
+8. [Benefits of Redis](#benefits-of-redis)
+9. [Best Practices of Redis](#best-practices-of-redis)
+10. [Conclusion](#conclusion)
+11. [Contact Information](#contact-information)
+12. [References](#references)
 
 ---
 
-# Redis: Remote Dictionary Server
 
-**Redis** stands for **Remote Dictionary Server** and was created by **Salvatore Sanfilippo** in 2009 while working on an Italian startup called **Loggly**. Sanfilippo needed a solution to manage large volumes of log data in real-time, which led him to develop Redis. Traditional databases couldn't efficiently handle his requirements, so he created Redis to provide extremely fast data retrieval by storing data in memory.
+![alt text](image-10.png)
 
-Initially designed to handle simple key-value pairs, Redis quickly evolved to support complex data structures like lists, sets, and hashes, making it versatile for caching, message brokering, and even primary data storage.
+## Redis: Remote Dictionary Server
 
----
-
-## What is Redis?
-
-**Redis** is an open-source, in-memory data store commonly used as a **cache**, **message broker**, and even as a **database**. Its design prioritizes speed by storing data in memory rather than on disk, making it ideal for applications needing fast data access, like real-time analytics, session management, and frequently accessed information caching.
-
-Redis supports various data structures (strings, lists, sets, hashes, sorted sets) and ensures **atomic operations** for consistent and fast data access. 
+Redis, short for **Remote Dictionary Server**, is an open-source, in-memory data store developed by **Salvatore Sanfilippo** in 2009 while addressing real-time log management challenges at the Italian startup **Loggly**. Redis stores data directly in memory, which enables exceptionally fast data retrieval, making it ideal for use cases requiring high-speed access, like caching, session management, real-time analytics, and message brokering. Initially designed for handling basic key-value pairs, Redis has since evolved to support more complex data structures such as lists, sets, sorted sets, and hashes. This versatility allows Redis to function effectively as a cache, message broker, and even a primary database for applications needing efficient data access and atomic operations.
 
 ---
 
@@ -26,10 +33,12 @@ Redis supports various data structures (strings, lists, sets, hashes, sorted set
 
 Redis operates as an **in-memory database** by storing data in **RAM**, which allows for much faster data access than disk-based storage. This optimization for speed is beneficial in applications requiring real-time data handling. Example use cases include:
 
-- **Real-Time Analytics**: Financial systems and IoT applications that require instant data processing.
-- **Online Gaming**: Real-time player statistics, leaderboards, and matchmaking.
-- **E-commerce**: Managing shopping carts, caching product information, and handling high-traffic sales.
-- **Social Media**: Quick retrieval of user feeds and notifications.
+| **Use Case**            | **Description**                                                                                           |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Real-Time Analytics** | Financial systems and IoT applications that require instant data processing.                              |
+| **Online Gaming**       | Real-time player statistics, leaderboards, and matchmaking.                                               |
+| **E-commerce**          | Managing shopping carts, caching product information, and handling high-traffic sales.                    |
+| **Social Media**        | Quick retrieval of user feeds and notifications.                                                          |
 
 ---
 
@@ -38,19 +47,17 @@ Redis operates as an **in-memory database** by storing data in **RAM**, which al
 **Caching** is a technique for storing frequently accessed data temporarily in a "cache" for fast retrieval. Redis is ideal for caching due to its in-memory nature and high-speed data processing, reducing the load on primary databases by serving cached data.
 
 ---
-![Screenshot 2024-11-13 145137](https://github.com/user-attachments/assets/f755e6de-2eda-4f0b-842a-50bde5481374)
 
 ## How Does Caching in Redis Work?
 
-Redis manages cached data in memory to provide fast data access. Here’s a summary of how it works:
-
-1. **Cache Miss**: If requested data isn't in memory, Redis retrieves it from the main database.
-2. **Cache Hit**: If the data is already in memory, Redis returns it instantly.
-3. **Cache Update**: New or updated data is stored in memory for future access.
-4. **Cache Invalidation**: When underlying database data changes, Redis updates or removes the cached data to maintain consistency.
+| **Step**               | **Description**                                                                                      |
+|------------------------|------------------------------------------------------------------------------------------------------|
+| **Cache Miss**         | If requested data isn't in memory, Redis retrieves it from the main database.                        |
+| **Cache Hit**          | If the data is already in memory, Redis returns it instantly.                                        |
+| **Cache Update**       | New or updated data is stored in memory for future access.                                           |
+| **Cache Invalidation** | When underlying database data changes, Redis updates or removes the cached data to maintain consistency. |
 
 ---
-![0_eEt4kTo6zQurjVCu (1)](https://github.com/user-attachments/assets/5a910eee-dcac-474c-bd01-d491e9bf1b56)
 
 ## Redis Persistence
 
@@ -60,8 +67,6 @@ Redis offers **persistence** features to store data on disk for recovery after a
 - **Append-Only File (AOF)**: Logs each write operation to a file, allowing for full recovery in case of a crash, though it is more resource-intensive.
 
 ---
-
-![durable-redis-2-1200x650](https://github.com/user-attachments/assets/15b8a47d-1cd8-40f1-acb8-0754f338de31)
 
 ## What are Key-Value Pairs?
 
@@ -78,11 +83,13 @@ Redis offers a range of commands to work with key-value pairs, including:
 
 Redis provides diverse **data structures** to optimize data organization and access. Each structure has a unique set of operations that enhance data management and retrieval:
 
-- **Strings**: Store and manipulate text or binary data.
-- **Hashes**: Store complex data structures with field-value pairs.
-- **Lists**: Useful for ordered collections of strings.
-- **Sets**: Hold unique elements without a specific order.
-- **Sorted Sets**: Like sets but maintain a specific order based on scores.
+| **Data Structure**      | **Description**                                                              |
+|-------------------------|------------------------------------------------------------------------------|
+| **Strings**             | Store and manipulate text or binary data.                                    |
+| **Hashes**              | Store complex data structures with field-value pairs.                        |
+| **Lists**               | Useful for ordered collections of strings.                                   |
+| **Sets**                | Hold unique elements without a specific order.                               |
+| **Sorted Sets**         | Like sets but maintain a specific order based on scores.                     |
 
 These data structures allow efficient and flexible data manipulation within Redis.
 
@@ -92,11 +99,30 @@ These data structures allow efficient and flexible data manipulation within Redi
 
 Redis offers several advantages:
 
-- **High-Speed Access**: Can handle millions of operations per second.
-- **Atomic Transactions**: Supports atomic commands, enabling applications to perform multiple operations safely.
-- **Pub/Sub Messaging**: Allows fast data sharing between applications.
-- **Scalability**: Redis can be deployed across multiple machines, supporting distributed systems and high-availability configurations.
-- **Advanced Features**: Redis includes unique tools like **pub/sub** messaging, **transactions**, and **Lua scripting** for more powerful application scenarios.
+| **Advantage**            | **Description**                                                                                           |
+|--------------------------|-----------------------------------------------------------------------------------------------------------|
+| **High-Speed Access**     | Can handle millions of operations per second.                                                            |
+| **Atomic Transactions**   | Supports atomic commands, enabling applications to perform multiple operations safely.                    |
+| **Pub/Sub Messaging**     | Allows fast data sharing between applications.                                                           |
+| **Scalability**           | Redis can be deployed across multiple machines, supporting distributed systems and high-availability configurations. |
+| **Advanced Features**     | Includes unique tools like **pub/sub** messaging, **transactions**, and **Lua scripting** for powerful application scenarios. |
+
+---
+
+## Best Practices of Redis
+
+| **Best Practice**               | **Description**                                                   |
+|----------------------------------|-------------------------------------------------------------------|
+| **Use Redis for Caching Only**   | Use Redis as a cache to speed up access to frequently used data, not as a primary database.               |
+| **Set Expiry Times on Cached Data** | Set expiration times (`TTL`) for cached data to prevent memory overload.                                  |
+| **Avoid Large Keys**            | Avoid storing large data objects in Redis to improve performance and reduce memory usage.                  |
+| **Use Redis Data Structures Efficiently** | Pick the right data structure for your needs, like sets for unique items or lists for ordered data.     |
+| **Monitor Redis Performance**   | Regularly check Redis' performance to ensure it runs efficiently and doesn't consume too many resources.    |
+| **Use Redis Persistence Wisely** | Use persistence settings (RDB or AOF) based on your need for durability, but balance it with performance.    |
+| **Sharding and Replication**    | Use sharding and replication to scale Redis and keep it fault-tolerant across multiple servers.             |
+| **Optimize Memory Usage**       | Use memory management tools like eviction policies (e.g., LRU) to optimize Redis memory usage.             |
+| **Secure Redis**                | Protect Redis with passwords, encryption, and by limiting access to trusted IPs.                          |
+| **Avoid Blocking Operations**   | Avoid commands like `BLPOP` or `BRPOP` that can block Redis, especially in high-traffic scenarios.         |
 
 ---
 
@@ -110,7 +136,7 @@ Redis is a high-performance, in-memory data store suited for use cases requiring
 
 | **Name**            | **Email address**                  |
 |---------------------|------------------------------------|
-| Anugra W. Lepcha    | wangchuklepcha801@gmail.com       |
+| Anugra W. Lepcha    | wangchuklepcha801@gmail.com        |
 
 ---
 
@@ -121,3 +147,5 @@ Redis is a high-performance, in-memory data store suited for use cases requiring
 | [What is Redis and How Does it Work? - Medium](https://medium.com/@ayushsaxena823/what-is-redis-and-how-does-it-work-cfe2853eb9a9) | Overview of Redis' structure and functions.               |
 | [Redis: What It Is, What It Does, and Why You Should Care - Backendless](https://backendless.com/redis-what-it-is-what-it-does-and-why-you-should-care/) | Explanation of Redis' importance and common use cases.    |
 | [Redis Architecture Notes](https://architecturenotes.co/p/redis)                                              | Detailed architectural insights into Redis operations.    |
+| [Redis Documentation - GitHub](https://github.com/avengers-p11/Documentation/tree/main/OT%20MS%20Understanding/Redis/Redis%20Documentation) | Link to Redis documentation on GitHub.                    |
+
