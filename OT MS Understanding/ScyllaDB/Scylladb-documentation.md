@@ -17,7 +17,7 @@
 - [Monitoring](#monitoring)
 - [Use Cases](#use-cases)
 - [Conclusion](#conclusion)
-- [Contacts](#contact)
+- [Contacts](#contacts)
 - [References](#references)
 
 ## Purpose
