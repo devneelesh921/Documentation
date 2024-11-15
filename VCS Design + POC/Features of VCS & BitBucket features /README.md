@@ -57,8 +57,7 @@ set of advantages and drawbacks:
 
 
 # 3.  Distributed version control:
-   Distributed version control is the
-    most sophisticated of the three. Here, each local repository fully
+   Distributed version control is the most sophisticated of the three. Here, each local repository fully
     mirrors the central repository, including its history.
 
 ![image](https://github.com/user-attachments/assets/a9e04ad4-7810-4ce0-9278-08b90eaef4d9)
