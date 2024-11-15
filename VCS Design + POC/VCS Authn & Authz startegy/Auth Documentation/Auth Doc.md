@@ -43,7 +43,7 @@ Authentication is important for several reasons:
 
 ## 3. Authentication Strategies
 
-There are several authentication methods used to secure VCS access. Below are the most commonly employed strategies:
+There are several authentication methods used to secure VCS access. Below are the most common strategies:
 
 ### 1. Username and Password
 - **Description**: The simplest and most commonly used method. Users authenticate by providing a username and password.
