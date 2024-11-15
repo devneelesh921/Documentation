@@ -2,9 +2,9 @@
 
 ## Author
 
-| **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer** |
+| **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer L0** |
 |------------|----------------|-------------------|---------------------|----------|
-| Anjali Dhiman  | 15-11-24      | V1  | 15-11-24           | L0 -  |
+| Anjali Dhiman  | 15-11-24      | V1  | 15-11-24           |   |
 ## Table of Contents
 
 - [Introduction](#introduction)
