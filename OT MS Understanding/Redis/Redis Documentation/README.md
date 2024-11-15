@@ -8,7 +8,7 @@
 ### Redis in OT-Microservices Application
 
 In the OT-Microservices application, the three APIs (Employee, Attendance, Salary) use a single Redis instance to enhance performance, even though the front-end doesn’t connect directly to Redis. Each API stores commonly accessed data in Redis, allowing them to quickly retrieve information without repeatedly querying the database, which makes the response times faster. Redis also allows the APIs to share data with each other, so they don't have to make the same API calls repeatedly. Additionally, Redis helps keep the data up-to-date in real time, ensuring that the APIs provide consistent and accurate information to the front-end. This approach improves the overall efficiency of the system and reduces backend delays.
----
+
 
 ## Table of Contents
 1. [Redis: Remote Dictionary Server](#redis-remote-dictionary-server)
