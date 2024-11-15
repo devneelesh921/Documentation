@@ -22,6 +22,8 @@
 - [References](#references)
 
 ***
+![image](https://github.com/user-attachments/assets/ca27d2e0-930a-49d3-8ff9-542ebc2aea36)
+
 ## Introduction
 
 Branch access policies in Git, used on platforms like GitHub, GitLab, or Bitbucket, are rules that control how and when changes can be made to branches in a repository. These policies help ensure that important branches, like the main or production branches, are protected from unauthorized changes. They can require code reviews, enforce certain checks, and prevent direct edits to sensitive branches, promoting better code quality and team collaboration.
