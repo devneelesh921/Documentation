@@ -1,7 +1,7 @@
 
 # Salary-api
 
-| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer L0 ** |
+| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer L0** |
 |------------|----------------|----------------------|---------------------|---------------|
 | Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 15-11-24           | Khushi |
 
