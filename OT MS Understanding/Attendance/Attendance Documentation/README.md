@@ -1,5 +1,4 @@
 #    **Attendance API Documentation**
-
 #    **(OT-MICROSERVICES)**
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last edited on** | **Reviewer** |
