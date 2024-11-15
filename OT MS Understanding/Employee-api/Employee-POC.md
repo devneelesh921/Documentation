@@ -1,22 +1,27 @@
 # POC of Employee-API according Documentation
 
-| **Author** | **Created on** | **Last updated by** | **Last edited on** |
-|------------|----------------|----------------------|-------------------|
-|Anjali Dhiman  | 12-11-24    | Anjali Dhiman      | 12-11-24           |
+| **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer** |
+|------------|----------------|-------------------|---------------------|----------|
+| Anjali Dhiman  | 12-11-24      | V1  | 15-11-24           | Shreya Jaiswal |
 
 
 ### Supported Features of the Employee API:
-- GO: A fast, lightweight web framework. It provides routing, middleware handling, and API request management.
-- ScyllaDB: Utilized as the primary database for storing all employee data. ScyllaDB is a high-performance NoSQL database compatible with Cassandra, ensuring scalability and fast data access.
-- Redis (Optional): Used as a cache layer for storing frequently accessed employee data, reducing database load and improving response times.
-- Swagger/OpenAPI: Integrated for API documentation, making it easier to interact with and understand the available endpoints and data structures, and for testing the API.
-- Database Migrations: Managed using the migrate tool to handle database schema changes and ensure consistency across environments.
+
+| Component              | Description                                                                                                 |
+|------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Go**                 | A fast, lightweight web framework providing routing, middleware handling, and API request management.       |
+| **ScyllaDB**           | Primary database for storing all employee data; a high-performance NoSQL solution compatible with Cassandra, ensuring scalability and fast data access. |
+| **Redis (Optional)**   | Cache layer for storing frequently accessed employee data, reducing database load and improving response times. |
+| **Swagger/OpenAPI**    | Integrated API documentation, allowing for easier interaction with and understanding of endpoints, data structures, and testing. |
+| **Database Migrations**| Managed with the Migrate tool, enabling database schema changes and maintaining consistency across environments. |
+
 # Pre-requisites 
 - GO
 - Scylladb
 - Redis
 - Migrate
 - Make command
+
 # System Requirements
 | **Requirements** | **Details** |
 |---------|---------|
@@ -30,16 +35,6 @@
 # Step by Step Guidance 
 This guide explains how to set up a virtual machine (VM), install dependencies, configure the database and caching services, and run the `employee-api` application. Follow each step carefully to ensure the application is correctly installed and functioning.
 
-# Create a Virtual Machine
--	**VM Size**: t2.large
--	**Disk Size**: Up to 20GB
--	**Operating System**: Ubuntu 22.04
-
-# Access the VM
-### SSH into the VM using your public key:
-```bash
-$ ssh -i <your-key.pem> ubuntu@<your-public-ip>
-```
 
 # Clone the Repository
 ### 1. Clone the employee-api repository from GitHub:
