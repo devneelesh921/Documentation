@@ -1,9 +1,9 @@
 
 # Salary-api
 
-| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer** |
+| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer L0 ** |
 |------------|----------------|----------------------|---------------------|---------------|
-| Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 12-11-24           | Nikhil |
+| Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 15-11-24           | Khushi |
 
 
 ## Pre-Requisites
@@ -355,8 +355,12 @@ sudo kill -9 <pid>
 Run the command again "java -jar target/salary-0.1.0-RELEASE.jar"
 ```
 
+![Screenshot 2024-11-15 at 2 18 43 PM](https://github.com/user-attachments/assets/b2e7061f-bd2d-45e4-bf46-b8c4faaa5c78)
+
+
 # Contact Information
 
 | **Name** | **Email address**            | **Github ID**
 |----------|-------------------------------|-------------------|
 | Pravesh Kumar    |  pravesh.kumar611@gmail.com           | Pravesh899 |
+
