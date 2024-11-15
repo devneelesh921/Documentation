@@ -125,19 +125,20 @@ Organization owners can assign roles to individuals and teams giving them differ
 ***
 ## Conclusion
 
-In conclusion, implementing branch access policies in the OT Microservice project is essential for maintaining code quality, security, and collaboration efficiency. By using GitHub's branch protection rules, you can make sure that important branches like main and release/* are only updated through pull requests, with required checks like tests and code reviews. This prevents unauthorized changes and helps keep the codebase clean. Additionally, you can control who has permission to push to these branches, ensuring that only authorized contributors can make updates, leading to a more organized and secure development process.
+In conclusion, implementing branch access policies in the OT Microservice project is essential for maintaining code quality, security, and collaboration efficiency. By using GitHub's branch protection rules, you can make sure that important branches like main are only updated through pull requests, with required checks like tests and code reviews. This prevents unauthorized changes and helps keep the codebase clean. Additionally, you can control who has permission to push to these branches, ensuring that only authorized contributors can make updates, leading to a more organized and secure development process.
 
 ***
 
 ## Contacts
 
-| Name| Email Address      |
-|-----|--------------------------|
-| Anjali Dhiman | anjali.dhiman.snaatak@mygurukulam.co |
+| Name| Email Address      | GitHub | URL |
+|-----|--------------------------|----------|---------|
+| Anjali Dhiman | anjali.dhiman.snaatak@mygurukulam.co |  Anjaliopstree  |  https://github.com/Anjaliopstree  |
 
-| GitHub | URL |
-|----------|---------|
-|  Anjaliopstree  |  https://github.com/Anjaliopstree  |
+
+
+
+
 
 ## References
 
