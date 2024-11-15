@@ -40,6 +40,7 @@ To get started, ensure you have the following installed and set up on your machi
 These components must be accessible over the network or from within the same environment as the API.
 
 
+
 ## Features
 
 | Feature                     | Description                                                                                          |
@@ -49,6 +50,7 @@ These components must be accessible over the network or from within the same env
 | **Redis Caching**           | Optional integration with Redis to cache frequently requested employee data, improving response times and reducing database load. |
 | **API Documentation**       | Self-updating, interactive API documentation powered by Swagger, making it easy to test and understand endpoints. |
 | **Scalable and Lightweight**| Built with Go for efficiency and concurrency, enabling scalability and handling of high request volumes. |
+
 
 
 ## Tools Used
