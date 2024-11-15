@@ -354,6 +354,8 @@ sudo kill -9 <pid>
 
 Run the command again "java -jar target/salary-0.1.0-RELEASE.jar"
 ```
+![Screenshot 2024-11-15 at 2 18 43 PM](https://github.com/user-attachments/assets/6f0b65e5-2fa0-44c1-bd6f-01e2a5d41057)
+
 
 ![Screenshot 2024-11-15 at 2 18 43 PM](https://github.com/user-attachments/assets/b2e7061f-bd2d-45e4-bf46-b8c4faaa5c78)
 
