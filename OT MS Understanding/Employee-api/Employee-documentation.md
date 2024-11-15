@@ -39,25 +39,30 @@ To get started, ensure you have the following installed and set up on your machi
 - Redis (optional) - For caching functionality, an active Redis instance is recommended but not required.
 These components must be accessible over the network or from within the same environment as the API.
 
-## Features
-The Employee API provides several features designed for effective management of employee information and for easy integration into broader systems.
 
-- CRUD Operations: Full Create, Read, Update, and Delete functionality for managing employee records.
-- High-Performance Storage: Built on ScyllaDB, a database optimized for distributed and high-throughput workloads, with a Cassandra-compatible interface.
-- Redis Caching: Optionally integrates with Redis to cache frequently requested employee data, improving response times and reducing load on the database.
-- API Documentation with Swagger: A self-updating, interactive API documentation interface powered by Swagger, allowing developers to easily test and understand available endpoints.
-- Scalable and Lightweight: Built with Go, known for its efficiency and concurrency capabilities, making this API scalable and suitable for handling high request volumes.
+## Features
+
+| Feature                     | Description                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------|
+| **CRUD Operations**         | Full Create, Read, Update, and Delete functionality for managing employee records.                  |
+| **High-Performance Storage**| Built on ScyllaDB, optimized for distributed, high-throughput workloads with a Cassandra-compatible interface. |
+| **Redis Caching**           | Optional integration with Redis to cache frequently requested employee data, improving response times and reducing database load. |
+| **API Documentation**       | Self-updating, interactive API documentation powered by Swagger, making it easy to test and understand endpoints. |
+| **Scalable and Lightweight**| Built with Go for efficiency and concurrency, enabling scalability and handling of high request volumes. |
+
 
 ## Tools Used
-This API relies on several powerful tools and technologies:
 
-- Go (Golang) 1.22: The primary language used for development, chosen for its performance, simplicity, and ability to handle concurrent requests efficiently.
-- ScyllaDB: A distributed, highly available, and Cassandra-compatible NoSQL database, optimized for low-latency, high-throughput applications.
-- Redis: An in-memory data store used for caching frequently accessed data, which can reduce database load and improve API response times.
-- Swagger: Automatically generates API documentation that can be accessed and interacted with directly from a web interface.
-- Make command: A build automation tool used to automate tasks defined in the Makefile. This is essential for simplifying the execution of repetitive commands, such as building the application or running migrations.
-- Migrate: A database migration tool for handling schema changes, which ensures that the database structure stays consistent with the application’s requirements.
-- JQ: A command-line JSON processor for handling JSON data.
+| Tool             | Description                                                                                                   |
+|-------------------|---------------------------------------------------------------------------------------------------------------|
+| **Go (Golang) 1.22** | The primary language for development, chosen for its performance, simplicity, and efficient handling of concurrent requests. |
+| **ScyllaDB**        | A distributed, highly available, and Cassandra-compatible NoSQL database optimized for low-latency, high-throughput applications. |
+| **Redis**           | An in-memory data store used for caching frequently accessed data, reducing database load and improving API response times. |
+| **Swagger**         | Automatically generates API documentation accessible and interactable through a web interface.              |
+| **Make Command**    | A build automation tool for running repetitive tasks (e.g., building the app, running migrations) via a Makefile. |
+| **Migrate**         | A database migration tool ensuring schema consistency with the application’s requirements.                  |
+| **JQ**              | A command-line JSON processor for parsing and handling JSON data.                                          |
+
 
 
 
