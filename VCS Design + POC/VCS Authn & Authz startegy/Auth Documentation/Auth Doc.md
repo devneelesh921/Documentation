@@ -2,7 +2,7 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer L0**  | **Reviewer L1**   | **Reviewer L2**   |
 |-----------------------|----------------|-------------|---------------------------|---------------------|------------------|-------------------|-------------------|
-| Anugra W. Lepcha      | 14-11-24       | version 1 | Anugra W. Lepcha          | 15-11-24            |    |      |     |
+| Anugra Lepcha      | 14-11-24       | v1 | Anugra Lepcha          | 15-11-24            |    |      |     |
 
 ---
 
