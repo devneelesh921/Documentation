@@ -5,32 +5,38 @@
 | Anjali Dhiman  | 12-11-24      | V1  | 14-11-24           | Shreya Jaiswal |
 
 ## Table of Contents
+- [Purpose](purpose)
+- [Introduction](#introduction)
+- [Features](#features)
+- [System Requirements](#system-requirements)
+- [Important Ports](#important-ports)
+- [Architecture](#architecture)
+- [Advantages & Disadvantages](#Advantages--Disadvantages)
+- [Installation](#Installation)
+- [Configuration](#configuration)
+- [Monitoring](#monitoring)
+- [Use Cases](#use-cases)
+- [Conclusion](#conclusion)
+- [Contacts](#contact)
+- [References](#references)
 
-- [Purpose](#purpose)
-- [1. Introduction](#1-introduction)
-  - [What is ScyllaDB?](#what-is-scylladb)
-  - [Key Features](#key-features)
-- [2. Architecture Overview](#2-architecture-overview)
-  - [Sharded Architecture](#sharded-architecture)
-  - [Data Model](#data-model)
-  - [Replication and Consistency](#replication-and-consistency)
-  - [Write and Read Path](#write-and-read-path)
-- [3. Getting Started](#3-getting-started)
-  - [Installation](#installation)
-  - [Initial Configuration](#initial-configuration)
-- [6. Monitoring and Maintenance](#6-monitoring-and-maintenance)
-  - [Metrics and Monitoring](#metrics-and-monitoring)
-  - [Backups and Restores](#backups-and-restores)
-  - [Repair Operations](#repair-operations)
-- [8. Use Cases](#8-use-cases)
-  - [Real-Time Analytics](#real-time-analytics)
-  - [IoT Data](#iot-data)
-  - [E-Commerce](#e-commerce)
-- [9. Conclusion](#9-conclusion)
+## Purpose
+ScyllaDB is a high-performance, NoSQL database designed to handle large-scale data applications with low latency and high throughput, even under heavy workloads. Built in C++ for optimized performance, it is fully compatible with Apache Cassandra, enabling straightforward migrations with minimal code changes while using the same Cassandra Query Language (CQL) and drivers. ScyllaDB is crafted to make efficient use of system resources through asynchronous I/O and avoids Java-based garbage collection, ensuring consistent performance with lower CPU and memory requirements. Known for its scalability, ScyllaDB enables seamless horizontal scaling, making it suitable for applications that need to accommodate rapid data growth and fluctuating traffic demands. Additionally, it incorporates robust fault tolerance features, including data replication, automatic failover, and multi-region support, to ensure continuous data availability and reliability in production environments.
 
-# Introduction
+## Introduction
 ## What is ScyllaDB?
 ScyllaDB is a high-performance distributed NoSQL database that delivers  low-latency, high-throughput data processing for modern applications. It is designed as a drop-in replacement for Apache Cassandra, offering compatibility with Cassandra's data model and query language (CQL) while significantly boosting performance and scalability. ScyllaDB is written in C++, providing efficiency benefits over Java-based solutions, and employs a shared-nothing architecture that enables seamless horizontal scalability across clusters of commodity hardware. With its focus on performance, scalability, and compatibility, ScyllaDB is well-suited for use cases requiring real-time data processing, such as IoT, analytics, and online transaction processing (OLTP) applications.
+
+## Features 
+
+|       Features     |             Description                     |
+|--------------------|-----------------------------------------|
+| **Scalability:**   | It is designed to scale horizontally across multiple nodes seamlessly.                  | 
+| **Performance:**   | It is optimized for low-latency and high-throughput workloads.         |
+| **Shared-Nothing Architecture:**   | It follows a shared-nothing architecture where each node in the cluster operates independently.             |
+| **Fault Tolerance:**   | It provides fault tolerance through replication. Data is automatically replicated across multiple nodes in a cluster. |
+| **Flexibility:**     | ScyllaDB supports dynamic scaling, allowing you to add or remove nodes from the cluster without downtime.   |
+| **Community and Enterprise Support:**     | It is available in both open-source and enterprise editions. |  
 
 
 ## System Requirements 
@@ -42,16 +48,7 @@ ScyllaDB is a high-performance distributed NoSQL database that delivers  low-lat
 | Disk Space                        |            20 GB                        |
 | OS Required (Linux Distributions) | Ubuntu 24.04/22.04 LTS, Debian 10/11, Rocky 8/9 |
 
-## Key Features 
 
-|       Features     |             Description                     |
-|--------------------|-----------------------------------------|
-| **Scalability:**   | It is designed to scale horizontally across multiple nodes seamlessly.                  | 
-| **Performance:**   | It is optimized for low-latency and high-throughput workloads.         |
-| **Shared-Nothing Architecture:**   | It follows a shared-nothing architecture where each node in the cluster operates independently.             |
-| **Fault Tolerance:**   | It provides fault tolerance through replication. Data is automatically replicated across multiple nodes in a cluster. |
-| **Flexibility:**     | ScyllaDB supports dynamic scaling, allowing you to add or remove nodes from the cluster without downtime.   |
-| **Community and Enterprise Support:**     | It is available in both open-source and enterprise editions. |  
 
 ## Important Ports
 
@@ -65,7 +62,7 @@ ScyllaDB is a high-performance distributed NoSQL database that delivers  low-lat
 | 9160   | Thrift client API             |
 
 
-## Architecture Overview
+## Architecture
 
 - Sharded Architecture: ScyllaDB employs a sharded architecture, where each CPU core is responsible for one or more shards of the data. This design eliminates the need for a central coordination node, improving scalability and performance.
 - Data Model: ScyllaDB uses a wide-column store, similar to Cassandra, with tables that consist of rows and columns. The primary key consists of a partition key and optional clustering columns.
@@ -73,7 +70,7 @@ ScyllaDB is a high-performance distributed NoSQL database that delivers  low-lat
 - Write and Read Path: ScyllaDB implements a write path optimized for low latency. Writes are initially written to a memory table (MemTable) and later flushed to disk (SSTable). The read path uses a combination of MemTable, SSTable, and Bloom Filters for efficient data retrieval.
 
 
-## Advantages & Disadvantages of scyllaDB
+## Advantages & Disadvantages
 
 |Advantages|	Disadvantages|
 |----------|----------------|
@@ -84,24 +81,19 @@ ScyllaDB is a high-performance distributed NoSQL database that delivers  low-lat
 |**Flexibility:** Supports dynamic scaling, allowing nodes to be added or removed without downtime.	|**Limited OS Support:** Primarily supports Linux distributions (Ubuntu, Debian, Rocky), which may not be suitable for all environments.|
 |**Community and Enterprise Support:** Available in both open-source and enterprise editions, providing options for different levels of support and features.	|**Dependency on Java:** Requires Java (JDK 11 or later) to be installed, adding an extra layer of dependencies to manage.|
 
-## Install ScyllaDB 
+
+
+## Installation 
 Follow the link for the installation Document:
-- 
+()
 
 ## Configuration
 
 Configuring ScyllaDB involves setting up cluster topology, replication factors, and performance tuning parameters. Detailed configuration guides can be found in the [ScyllaDB Configuration Guide](https://opensource.docs.scylladb.com/stable/getting-started/system-configuration.html).
 
 
-## Install ScyllaDB 
-Follow the link for the installation Document:
-()
 
-## Configuration
-Configuring ScyllaDB involves setting up cluster topology, replication factors, and performance tuning parameters. Detailed configuration guides can be found in the
-
-
-## Monitoring and Management 
+## Monitoring
 
 - ScyllaDB offers robust monitoring and management tools, including integration with Prometheus and Grafana for real-time metrics and alerting. The JMX interface provides additional management capabilities.
 - ScyllaDB Monitoring Stack is a full stack for ScyllaDB monitoring and alerting. The stack contains open source tools including Prometheus and Grafana, as well as custom ScyllaDB dashboards and tooling.
@@ -120,7 +112,8 @@ ScyllaDB is ideal for various applications, including:
 ## Conclusion
 ScyllaDB provides a highly scalable, fault-tolerant, and high-performance NoSQL solution for modern applications. Its compatibility with Apache Cassandra and focus on low latency make it an ideal choice for large-scale, real-time data workloads.
 
-## Contact Information
+## Contacts
+
 | Name| Email Address      |
 |-----|--------------------------|
 | Anjali Dhiman | anjali.dhiman.snaatak@mygurukulam.co |
@@ -130,7 +123,7 @@ ScyllaDB provides a highly scalable, fault-tolerant, and high-performance NoSQL 
 |  Anjaliopstree  |  https://github.com/Anjaliopstree  |
 
 
-## Reference Links 
+## References
 
 | Source                                                                                     | Description                                |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------ |
