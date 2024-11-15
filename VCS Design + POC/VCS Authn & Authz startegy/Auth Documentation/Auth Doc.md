@@ -12,11 +12,10 @@
 2. [Why Authentication is Important](#why-authentication-is-important)
 3. [Authentication Strategies](#authentication-strategies)
 4. [Comparison of Authentication Methods](#comparison-of-authentication-methods)
-5. [Step-by-Step Guide to Setting Up Authentication](#step-by-step-guide-to-setting-up-authentication)
-6. [Best Practices](#best-practices)
-7. [Conclusion](#conclusion)
-8. [Contact Information](#contact-information)
-9. [References](#references)
+5. [Best Practices](#best-practices)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [References](#references)
 
 ---
 
