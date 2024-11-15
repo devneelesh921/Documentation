@@ -93,7 +93,7 @@ There are several authentication methods used to secure VCS access. Below are th
 
 ---
 
-## 6. Best Practices
+## 5. Best Practices
 
 To ensure that your authentication setup is secure and efficient, follow these best practices:
 
@@ -109,13 +109,13 @@ To ensure that your authentication setup is secure and efficient, follow these b
 
 ---
 
-## 7. Conclusion
+## 6. Conclusion
 
 Authentication is a cornerstone of securing access to Version Control Systems. By adopting strong authentication strategies and following best practices, organizations can protect their code repositories, ensure accountability, and enhance collaboration across development teams. It's essential to choose the appropriate authentication method based on the specific needs of the team, environment, and security requirements.
 
 ---
 
-### Contact Information
+## 7. Contact Information
 
 | **Name** | **Email address**            |
 |----------|-------------------------------|
@@ -123,7 +123,7 @@ Authentication is a cornerstone of securing access to Version Control Systems. B
 
 ---
 
-## 9. References
+## 8. References
 
 | Service          | Documentation Link                                                  |
 |------------------|---------------------------------------------------------------------|
