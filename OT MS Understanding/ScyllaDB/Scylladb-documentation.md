@@ -2,7 +2,7 @@
 
 | **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer** |
 |------------|----------------|-------------------|---------------------|----------|
-| Anjali Dhiman  | 12-11-24      | V1  | 14-11-24           | Shreya Jaiswal |
+| Anjali Dhiman  | 12-11-24      | V1.2  | 15-11-24           | Shreya Jaiswal, Khushi Malhotra |
 
 ## Table of Contents
 - [Purpose](#purpose)
@@ -110,7 +110,7 @@ ScyllaDB is ideal for various applications, including:
 
 
 ## Conclusion
-ScyllaDB provides a highly scalable, fault-tolerant, and high-performance NoSQL solution for modern applications. Its compatibility with Apache Cassandra and focus on low latency make it an ideal choice for large-scale, real-time data workloads.
+In the OT-Microservices architecture, ScyllaDB is utilized in the Employee API as the primary database solution. It enables efficient storage and retrieval of employee-related data with features like high performance, scalability, and low latency. Its Cassandra-compatible architecture ensures easy integration, while distributed and fault-tolerant operations make it reliable for high-demand use cases.
 
 ## Contacts
 
