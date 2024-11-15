@@ -13,11 +13,9 @@
 
 -   [**Purpose**](#purpose)
 
--   **[Pre-requisite](#pre-requisites)**
+-   [**System Requirements**](#system-requirements)
 
-    -   [**System Requirements**](#system-requirements)
-
-    -   [**Build time Dependency**](#build-time-dependency)
+-   [**Build time Dependency**](#build-time-dependency)
 
 -   **[Architecture](#architecture)**
 
