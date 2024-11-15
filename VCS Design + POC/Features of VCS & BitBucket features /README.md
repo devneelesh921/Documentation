@@ -41,7 +41,7 @@ A version control system is also called a source control system. It is a softwar
 allows team members to change and collaborate on the same files. It maintains a record of every change complete with authorship, timestamp, and other details.
 Version Control is a crucial tool in every developer’s toolkit.
 
----
+
 
 # Types of Version Control Systems
 
@@ -56,17 +56,16 @@ any local versions or the single code version become corrupted, retrieving chang
 A Centralized Version Control hosts different versions of the code in a centralized repository. Users can access these versions, and push or pull changes 
 as needed. If the centralized repository becomes corrupted, retrieval can be difficult.
 
+---
 ![image](https://github.com/user-attachments/assets/d8692545-3dfc-4b01-b5ce-d71f1a3c6304)
 
 
 # 3.  Distributed version control:
 Distributed version control is the most sophisticated of the three. Here, each local repository fully mirrors the central repository, including its history.
 
-
-
+---
 ![image](https://github.com/user-attachments/assets/a9e04ad4-7810-4ce0-9278-08b90eaef4d9)
 
----
 
 # Bitbucket
 
@@ -104,6 +103,7 @@ third-party equipment. Bitbucket also places a strong focus on security through 
 Bitbucket operates as a Git-based distributed version control system, enabling developers to maintain a local repository with the full history of changes. This 
 architecture facilitates seamless branching, merging, and collaborative code workflows through pull requests. It provides two deployment options.
 
+---
 ![image](https://github.com/user-attachments/assets/969adb19-bdd3-4714-8d6f-8a1a4d907b05)
 
 
