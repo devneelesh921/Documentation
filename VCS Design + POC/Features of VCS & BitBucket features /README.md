@@ -40,15 +40,15 @@ developer’s toolkit.
 There exist three types of Version control systems, each with its own
 set of advantages and drawbacks:
 
-# 1.  **Local version control: **In a local Version Control, changes are
-    stored locally in the files as a hot-fix or patch before being
+# 1.  Local version control: 
+     In a local Version Control, changes are stored locally in the files as a hot-fix or patch before being
     pushed to a single version of code in a database. If any local
     versions or the single code version become corrupted, retrieving
     changes might be a challenge.
 
 
-# 2.  **Centralized version control: **A Centralized Version Control hosts
-    different versions of the code in a centralized repository. Users
+# 2.  Centralized version control:
+      A Centralized Version Control hosts different versions of the code in a centralized repository. Users
     can access these versions, and push or pull changes as needed. If
     the centralized repository becomes corrupted, retrieval can be
     difficult.
@@ -56,7 +56,8 @@ set of advantages and drawbacks:
 ![image](https://github.com/user-attachments/assets/d8692545-3dfc-4b01-b5ce-d71f1a3c6304)
 
 
-# 3.  **Distributed version control: **Distributed version control is the
+# 3.  Distributed version control:
+   Distributed version control is the
     most sophisticated of the three. Here, each local repository fully
     mirrors the central repository, including its history.
 
