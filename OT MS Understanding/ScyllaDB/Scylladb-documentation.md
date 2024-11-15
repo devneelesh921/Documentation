@@ -25,6 +25,8 @@ ScyllaDB is a high-performance, NoSQL database designed to handle large-scale da
 
 ## Introduction
 ## What is ScyllaDB?
+![image](https://github.com/user-attachments/assets/7cdf2df0-9bfa-42f3-98f3-056b5899bbe1)
+
 ScyllaDB is a high-performance distributed NoSQL database that delivers  low-latency, high-throughput data processing for modern applications. It is designed as a drop-in replacement for Apache Cassandra, offering compatibility with Cassandra's data model and query language (CQL) while significantly boosting performance and scalability. ScyllaDB is written in C++, providing efficiency benefits over Java-based solutions, and employs a shared-nothing architecture that enables seamless horizontal scalability across clusters of commodity hardware. With its focus on performance, scalability, and compatibility, ScyllaDB is well-suited for use cases requiring real-time data processing, such as IoT, analytics, and online transaction processing (OLTP) applications.
 
 ## Features 
