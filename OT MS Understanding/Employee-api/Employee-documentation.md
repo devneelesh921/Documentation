@@ -75,10 +75,9 @@ This microservice utilizes ScyllaDB and Redis to efficiently handle data storage
 ScyllaDB is the primary persistent database for the Employee API, responsible for storing all core employee-related data, such as employee details, locations, and designations.
 
 ### Why ScyllaDB?
-- High Performance & Scalability: ScyllaDB is a high-performance NoSQL database compatible with Apache Cassandra but optimized for lower latencies and higher throughput. It is ideal for applications needing quick data access at scale.
-- Distributed Architecture: Designed for scalability, ScyllaDB’s distributed nature enables it to manage large volumes of data across multiple nodes, ensuring both high availability and durability.
-- Fault Tolerance: ScyllaDB’s architecture supports replication and partitioning, making it resilient to failures and ensuring that data is safe even if a node goes down.
-ScyllaDB is chosen for this API to provide a reliable and performant data storage solution capable of handling significant data loads, which is crucial as the employee data grows.
+
+ScyllaDB is a high-performance NoSQL database compatible with Apache Cassandra, optimized for lower latencies and higher throughput, making it ideal for applications requiring fast data access at scale. Its distributed architecture allows it to manage large volumes of data across multiple nodes, ensuring scalability, high availability, and durability. Additionally, ScyllaDB’s fault-tolerant design supports replication and partitioning, providing resilience to failures and safeguarding data even during node outages. This database was chosen for the Employee API to deliver a reliable, efficient storage solution capable of handling substantial data loads as the employee dataset grows.
+For a detailed setup, see the (https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/ScyllaDB/Scylladb-documentation.md)
 
 ### 2. Redis
 Redis serves as an in-memory caching layer to enhance performance by storing frequently accessed data temporarily.
