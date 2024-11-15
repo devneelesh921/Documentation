@@ -1,13 +1,12 @@
 #    **Attendance API Documentation**
 
 #    **(OT-MICROSERVICES)**
-________________________________________________________________________________________________________________________________________
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last edited on** | **Reviewer** |
 |:----------:|:-----------:|:----------:|:------------:|:----------:|:---------:|
 | Mohit Saini | 12-11-24 |  | Mohit Saini | 13-11-24 |  |
 
-________________________________________________________________________________________________________________________________________
+
 
 **Table of Contents**
 
@@ -38,7 +37,7 @@ ________________________________________________________________________________
 -   **[References](#references)**
 
 # Overview
-________________________________________________________________________________________________________________________________________
+
 This project is designed to create an Attendance API that integrates
 with **PostgreSQL** for storing data, **Redis** for caching, and
 uses **Liquibase** for database change management. The system is also
@@ -58,12 +57,12 @@ configured to manage Python dependencies using **Poetry**.
     schema changes in a controlled manner.
 
 # Purpose
-________________________________________________________________________________________________________________________________________
+
 The Attendance REST API was developed to manage and streamline all
 attendance-related transactions.
 
 # Pre-requisites
-________________________________________________________________________________________________________________________________________
+
 Before diving into application deployment, let’s ensure the following
 Hardware, Software and Security requirements are met.
 
@@ -79,7 +78,7 @@ Hardware, Software and Security requirements are met.
 ## 
 
 ## Build time Dependency
-______________________________________________________________________________________________________________________________________
+
 
 | **Name** | **Version** | **Description** |
 |-----------------|----------|---------------------------------------------|
@@ -89,12 +88,11 @@ ________________________________________________________________________________
 | **Liquibase** | 4.1.1 | Database schema versioning tool used for managing database migrations. |
 
 # Architecture
-_______________________________________________________________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/3317237b-7508-4454-8648-67e5e12b80fe)
 
 # Components
-_______________________________________________________________________________________________________________________________________
+
 -   [PostgreSQL](https://www.postgresql.org/)
 
 -   [Redis](https://redis.io/)
@@ -104,7 +102,7 @@ ________________________________________________________________________________
 -   [Liquibase](https://docs.liquibase.com/)
 
 ## PostgreSQL
-________________________________________________________________________________________________________________________________________
+
 PostgreSQL is an open-source object relational database management
 system used for transactional and analytical workloads. It incorporates
 and expands upon the SQL programming language, offering an array of
@@ -140,7 +138,7 @@ data storage, advanced querying, and scalability.
     quick recovery options to protect attendance data.
 
 ## Redis:
-________________________________________________________________________________________________________________________________________
+
 Redis (**RE**mote **DI**ctionary **S**erver) is an open source,
 in-memory, NoSQL key/value store that is used primarily as an
 application cache or quick-response database. It stores data in memory,
@@ -179,7 +177,7 @@ real-time analytics and messaging.
     efficiency and save memory.
 
 ## Poetry
-________________________________________________________________________________________________________________________________________
+
 **What is Poetry**
 
 Poetry is a tool designed to handle dependency management and packaging
@@ -223,7 +221,7 @@ error messages and ensuring package compatibility.
 ## 
 
 ## **Liquibase** 
-________________________________________________________________________________________________________________________________________
+
 **What is Liquibase**
 
 Liquibase is an open-source database migration tool that allows
@@ -268,7 +266,7 @@ version-controllable.
     reliability.
 
 # Conculsion :
-________________________________________________________________________________________________________________________________________
+
 
 The Attendance API is a strong system designed to manage attendance data
 efficiently. It uses PostgreSQL for reliable data storage, Redis for
@@ -281,13 +279,13 @@ scalability, reliability, and maintainability, ensuring smooth
 operations for attendance-related tasks in real-world scenarios.
 
 #  Contact Information
-________________________________________________________________________________________________________________________________________
+
 
 | **Name**    | **Email address**         |
 |-------------|---------------------------|
 | Mohit Saini | <it.mohitsaini@gmail.com> |
 
-________________________________________________________________________________________________________________________________________
+
 # References
 
 | **Link** | **Description** |
