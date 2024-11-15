@@ -2,10 +2,9 @@
 
 ## Author
 
-|Author | Created on | Version    | Last updated by     | Comment         |
-|-------|------------|------------|---------------------|-----------------|
-|Akshit kapil | 11-06-2024      | 1          |Akshit kapil | Initial Commit  |
-***
+| **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer** |
+|------------|----------------|-------------------|---------------------|----------|
+| Anjali Dhiman  | 12-11-24      | V1.2  | 15-11-24           | Shreya Jaiswal, Khushi Malhotra |
 ## Table of Contents
 
 - [Introduction](#introduction)
