@@ -4,7 +4,7 @@
 
 | **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer** |
 |------------|----------------|-------------------|---------------------|----------|
-| Anjali Dhiman  | 12-11-24      | V1.2  | 15-11-24           | Shreya Jaiswal, Khushi Malhotra |
+| Anjali Dhiman  | 15-11-24      | V1  | 15-11-24           | L0 -  |
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -120,12 +120,16 @@ Organization owners can assign roles to individuals and teams giving them differ
 Access policies and branch protection rules are like security guards for your code. They make sure only the right people can make changes, which keeps your code safe and working well. They also help everyone work together smoothly and follow the rules, like making sure changes get reviewed before they're added. So, they're important because they keep your code secure, organized, and running smoothly.
 ***
 
-## Contact Information
+## Contacts
 
-| Name| Email Address :mailbox:   |
+| Name| Email Address      |
 |-----|--------------------------|
-| Akshit kapil |akshit.kapil.snaatak@mygurukulam.co | 
-***
+| Anjali Dhiman | anjali.dhiman.snaatak@mygurukulam.co |
+
+| GitHub | URL |
+|----------|---------|
+|  Anjaliopstree  |  https://github.com/Anjaliopstree  |
+
 ## Reference Links
 
 | Links | Description      |
