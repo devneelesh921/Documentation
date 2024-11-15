@@ -1,9 +1,9 @@
 
 # Salary-api
 
-| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer L0** |
-|------------|----------------|----------------------|---------------------|---------------|
-| Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 15-11-24           | Khushi |
+| **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer L0** |**Reviwer L1** |**Reviwer L2** |
+|------------|----------------|----------------------|---------------------|---------------|---------------|---------------|
+| Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 15-11-24           | Khushi | | |
 
 ## Table of Contents
 - Pre-Requisites
