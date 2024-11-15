@@ -1,5 +1,5 @@
 
-# Authentication Documentation for VCS
+# Authentication Document for VCS
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer L0**  | **Reviewer L1**   | **Reviewer L2**   |
 |-----------------------|----------------|-------------|---------------------------|---------------------|------------------|-------------------|-------------------|
@@ -20,7 +20,7 @@
 
 ---
 
-C:\Users\Anugra Wangchuk\Desktop\two-factor-authentication-concept-illustration_114360-5280.avif
+![63e16018b024340305861cfa_Auth 101_ What is wallet-based authentication (1)](https://github.com/user-attachments/assets/29a1adda-4fb0-4557-9fa3-7a035ac8f76e)
 
 ## 1. Introduction
 
