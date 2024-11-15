@@ -5,6 +5,20 @@
 |------------|----------------|----------------------|---------------------|---------------|
 | Pravesh Kumar      | 11-11-24      | Pravesh Kumar             | 15-11-24           | Khushi |
 
+## Table of Contents
+- Pre-Requisites
+- System Requirements
+- Architecture
+- Step-by-step installation of [application]
+    - Clone the salary-api repo in your instance
+- Installation of prerequisites required for salary-api
+    - Scylladb Installation and configuration
+        - Install a repo file and add the ScyllaDB APT repository to your system
+        - Install ScyllaDB packages
+        - Configure I/O settings for ScyllaDB on your VM
+        - Update configuration file of scylla
+        - Restart the scylla-server service and check the status
+        - 
 
 ## Pre-Requisites
 
@@ -27,7 +41,8 @@ Maven will be used as package manager to down# Step1: Installation of software D
 | **OS**                 | Ubuntu or other Linux-based OS |
 | **RAM**                | 4 GB minimum                 |
 | **Disk Space**         | 20 GB               |
-| **Processor**          | Dual-core recommended        |       
+| **Processor**          | Dual-core recommended        | 
+| **Instance_Type**    | t2.medium | 
 
 
 ## Architecture
@@ -122,7 +137,7 @@ CREATE USER scylladb WITH PASSWORD 'password' SUPERUSER;
 ```
 - The command CREATE USER scylladb WITH PASSWORD 'password' SUPERUSER; creates a new user named scylladb in ScyllaDB or Cassandra with the password password and grants them superuser privileges, allowing full access to all database functions.
   
-#### Created keyspace employee_db
+#### Created keyspace salary_db
 ``` bash
 CREATE KEYSPACE salary_db WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 ```
