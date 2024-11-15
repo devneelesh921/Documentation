@@ -3,15 +3,43 @@
 
 | **Author** | **Created on** | **Last updated by** | **Last edited on** | **Reviwer L0** |
 |------------|----------------|----------------------|---------------------|---------------|
-| Pravesh Kumar      | 12-11-24      | Pravesh Kumar             | 12-11-24           | Khushi  |
+| Pravesh Kumar      | 12-11-24      | Pravesh Kumar             | 15-11-24           | Khushi  |
 
+## Table of Contents
+- Salary-API overview
+- Purpose of the Salary API
+    - The primary purpose of the Salary API
+    - Supported features of the Salary API
+    - Components of the Salary API
+- Architecture
+- ScyllaDB
+- Why ScyllaDB
+- Use Cases
+- Redis
+- Why Redis
+- Use Cases
+- Migrate
+- Why Migrate
+- Use Cases
+- Maven
+- Why Maven
+- Use Cases
+- Swagger
+- Key Benefits
+- Core Components
+- Common Use Cases
+- Conclusion
+- Contact Information
+- References
+
+  
 ## Salary-API overview
 
 The Salary API is a core component of the OT-Microservices project, providing functionality to handle employee salary-related transactions and information. It operates as a standalone microservice within a distributed system, allowing seamless integration with other services like Employee and Attendance APIs. Designed to meet high-performance, reliability, and scalability requirements, the Salary API is optimized for cloud environments and uses modern development and deployment practices.
 
 ## Purpose of the Salary API
 
-### The primary purpose of the Salary API is to:
+### The primary purpose of the Salary API:
 
 - Manage and process salary records for employees.
 
@@ -21,7 +49,7 @@ The Salary API is a core component of the OT-Microservices project, providing fu
   
 - It is essential in automating payroll processes, enhancing accuracy in employee compensation records, and simplifying the financial operations within the organization.
 
-### Supported features of the Salary API are:-
+### Supported features of the Salary API:-
 
 - Spring boot based web framework, which uses tomcat as webserver.
 - ScyllaDB is used as primary database for storing all the salary data.
@@ -151,3 +179,14 @@ The Salary API is an essential service in the OT-Microservices system, designed 
 | **Name** | **Email address**            | **Github ID**
 |----------|-------------------------------|-------------------|
 | Pravesh Kumar    |  pravesh.kumar611@gmail.com           | Pravesh899 |
+
+# References
+
+| **Link** | **Description**            |
+|----------|-------------------------------|
+| [What is Redis and How Does it Work? - Medium](https://medium.com/@ayushsaxena823/what-is-redis-and-how-does-it-work-cfe2853eb9a9)   |  Overview of Redis' structure and functions.          |
+| [ScyllaDB Installation Guide](https://opensource.docs.scylladb.com/stable/getting-started/install-scylla/install-on-linux.html)   | Comprehensive guide for installing ScyllaDB on Linux. |
+| [Swagger](https://swagger.io/docs/specification/v2_0/what-is-swagger/)   | Swagger Docs |
+| [Maven](https://maven.apache.org/what-is-maven.html)   | Maven Introduction |
+
+
