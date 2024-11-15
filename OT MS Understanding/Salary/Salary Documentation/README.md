@@ -13,21 +13,21 @@
     - Components of the Salary API
 - Architecture
 - ScyllaDB
-- Why ScyllaDB
-- Use Cases
+    - Why ScyllaDB
+    - Use Cases
 - Redis
-- Why Redis
-- Use Cases
+    - Why Redis
+    - Use Cases
 - Migrate
-- Why Migrate
-- Use Cases
+    - Why Migrate
+    - Use Cases
 - Maven
-- Why Maven
-- Use Cases
+    - Why Maven
+    - Use Cases
 - Swagger
-- Key Benefits
-- Core Components
-- Common Use Cases
+    - Key Benefits
+    - Core Components
+    - Common Use Cases
 - Conclusion
 - Contact Information
 - References
