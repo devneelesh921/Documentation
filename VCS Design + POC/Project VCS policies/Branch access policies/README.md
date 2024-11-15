@@ -14,12 +14,12 @@
 - [Creating Branch Protection Rules](#creating-branch-protection-rules)
 - [Access permissions](#access-permissions)
   - [Types of Github Account](#types-of-github-account)
-- [Roles in an organisation](#roles-in-an-organisation)
+- [Roles in an organization](#roles-in-an-organisation)
   - [Roles available for an organization repository](#roles-available-for-an-organization-repository)
 - [Creating a repository role](#creating-a-repository-role)
 - [Conclusion](#conclusion)
-- [Contact Information](#contact-information)
-- [Reference Links](#reference-links)
+- [Contacts](#contacts)
+- [References](#references)
 
 ***
 ## Introduction
@@ -51,29 +51,33 @@ Git branch protection rules are essential security configurations that allow rep
 ***
 
 ## Creating Branch Protection Rules
-- Navigate to your repository homepage at Github. Then click on the Settings Option
+### 1. Navigate to your repository homepage at Github. Then click on the Settings Option
   
-![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/0e57df1f-316c-4784-b990-4627432c9985)
+![Screenshot 2024-11-15 175827](https://github.com/user-attachments/assets/ccf7c453-7c31-4b43-a556-24133f6475d3)
 
-- In the "Code and automation" section of the sidebar, click  Branches
 
-![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/e52fb713-34e4-4606-bd10-dc21270be088)
+### 2. In the "Code and automation" section of the sidebar, click  Branches
 
-- Next to "Branch protection rules", click Add rule
+![Screenshot 2024-11-15 180111](https://github.com/user-attachments/assets/d7a71cfd-a1e5-4443-8913-1fa61bfec7fa)
+
+### 3. Next to "Branch protection rules", click Add rule
    
-![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/524c226f-9ee6-4a4b-9b65-e0f639a2685c)
+![Screenshot 2024-11-15 180154](https://github.com/user-attachments/assets/6cef9575-400b-4c35-92a2-faf88f960a85)
+
   
-- Under "Branch name pattern", type the branch name or pattern you want to protect
+### 4. Under "Branch name pattern", type the branch name or pattern you want to protect
 
-![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/4f3439a7-ca15-43d1-91c3-10b4fa6bcee3)
+![Screenshot 2024-11-15 180238](https://github.com/user-attachments/assets/1263dd71-1c12-4c11-ad29-a59378fab356)
 
-- Select the protection rules for your branch and then click on create
+
+### 5. Select the protection rules for your branch and then click on create
 ***
 
 ## Access permissions
 To perform actions on GitHub, such as creating pull requests or changing billing settings, a person must have sufficient access, controlled by permissions. Permissions define the ability to perform specific actions (e.g., deleting an issue). A role is a set of permissions assigned to individuals or teams.
 
 With roles, you can control who has access to your accounts and resources on GitHub and the level of access each person has. Roles work differently for different types of accounts. For more information about accounts, see "[Types of GitHub accounts](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/about-custom-repository-roles)."
+
 ### Types of Github Account
 There are three types of accounts on GitHub.
 
@@ -84,7 +88,7 @@ There are three types of accounts on GitHub.
 | [Enterprise accounts](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-your-enterprise-account/about-enterprise-accounts) | GitHub Enterprise Cloud and GitHub Enterprise Server offer enterprise accounts for centralized management of policy, billing, and promoting innersourcing across multiple organizations. |
 ***
 
-## Roles in an organisation
+## Roles in an organization
 Organization owners can assign roles to individuals and teams giving them different sets of permissions in the organization. You can give organization members, outside collaborators, and teams of people different levels of access to repositories owned by an organization by assigning them to roles. Choose the role that best fits each person or team's function in your project without giving people more access to the project than they need.
 
 ### Roles available for an organization repository
@@ -96,10 +100,11 @@ Organization owners can assign roles to individuals and teams giving them differ
 | Triage | Recommended for contributors who need to manage issues, discussions, and pull requests but don't have write access. |
 | Admin | Recommended for people who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository |
 | Custom roles | Only organizations that use GitHub Enterprise Cloud can create custom repository roles. |
+
 ***
 
 ## Creating a repository role
-- In the upper-right corner of GitHub, select your profile photo, then click  Your organizations.
+- In the upper-right corner of GitHub, select your profile photo, then click  Your Organizations.
 
 ![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/822279f0-e61d-46d9-a284-5a08bc798ff0)
 
@@ -111,13 +116,15 @@ Organization owners can assign roles to individuals and teams giving them differ
 
 ![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/743f7c35-5bd8-4049-aefc-0e6f1e94cf87)
 
-- Scroll to the "Custom roles" section, then click Create a Role. Fill out all the details and then click on create role.
+- Scroll to the "Custom roles" section, then click Create a Role. Fill out all the details and then click on Create Role.
 
 ![image](https://github.com/mygurkulam-p9/documentation/assets/160398005/23005f83-2243-4494-bc5b-c3fed721674b)
 
 ***
 ## Conclusion
-Access policies and branch protection rules are like security guards for your code. They make sure only the right people can make changes, which keeps your code safe and working well. They also help everyone work together smoothly and follow the rules, like making sure changes get reviewed before they're added. So, they're important because they keep your code secure, organized, and running smoothly.
+
+In conclusion, implementing branch access policies in the OT Microservice project is essential for maintaining code quality, security, and collaboration efficiency. By using GitHub's branch protection rules, you can make sure that important branches like main and release/* are only updated through pull requests, with required checks like tests and code reviews. This prevents unauthorized changes and helps keep the codebase clean. Additionally, you can control who has permission to push to these branches, ensuring that only authorized contributors can make updates, leading to a more organized and secure development process.
+
 ***
 
 ## Contacts
@@ -130,11 +137,11 @@ Access policies and branch protection rules are like security guards for your co
 |----------|---------|
 |  Anjaliopstree  |  https://github.com/Anjaliopstree  |
 
-## Reference Links
+## References
 
 | Links | Description      |
 |-----  |--------------------------|
 | https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches | About protected branches |
 | https://spectralops.io/blog/how-to-set-up-git-branch-protection-rules/ | How to set up Git branch protection rules |
-| https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization | Roles in an organisations |
+| https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization | Roles in an organisation |
 
