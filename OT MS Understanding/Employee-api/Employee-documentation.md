@@ -2,7 +2,7 @@
 
 | **Author** | **Created on** | **Version** | **Last edited on** | **Reviewer** |
 |------------|----------------|-------------------|---------------------|----------|
-| Anjali Dhiman  | 12-11-24      | V1  | 14-11-24           | Shreya Jaiswal |
+| Anjali Dhiman  | 12-11-24      | V1.2  | 15-11-24           | Shreya Jaiswal, Khushi Malhotra |
 
 
 ## Table of Contents
