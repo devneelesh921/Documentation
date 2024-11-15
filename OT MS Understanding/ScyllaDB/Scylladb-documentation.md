@@ -5,7 +5,7 @@
 | Anjali Dhiman  | 12-11-24      | V1  | 14-11-24           | Shreya Jaiswal |
 
 ## Table of Contents
-- [Purpose](purpose)
+- [Purpose](#purpose)
 - [Introduction](#introduction)
 - [Features](#features)
 - [System Requirements](#system-requirements)
